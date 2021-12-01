@@ -1,0 +1,105 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: hsl(225, 100%, 94%);
+    color:  hsl(223, 47%, 23%);
+    font-size: 16px;
+}
+
+.card-container {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 325px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 8px 30px #888888;
+}
+
+.card-hero {
+    background-image: url(./images/illustration-hero.svg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:20px 20px 0 0 ;
+   
+
+    
+}
+
+.main-card-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+.card-bottom-container {
+    border: 1px solid hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.btn-primary {
+    padding: 15px ;
+    border-radius: 10px;
+    border:none;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin: 20px 0;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    
+    
+}
+.btn-primary:hover {
+    box-shadow: 2px 4px 15px #888888;
+}
+
+.annual-plan-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.annual-text {
+    font-weight: bold;
+}
+
+.annual-price {
+    color: hsl(224, 23%, 55%);
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.card-paragraph {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5em;
+}
+
+.change-link {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.cancel-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+}
